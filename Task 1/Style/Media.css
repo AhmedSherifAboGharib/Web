@@ -1,0 +1,5 @@
+@media (max-width: 1000px) and (min-width:0px){
+    .w-60-l ,.w-30-R{
+        width: 100%;
+    }
+}
