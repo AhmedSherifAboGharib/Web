@@ -1,0 +1,121 @@
+@media (max-width: 700px) and (min-width:0px){
+header,.container{
+    width: 100%;
+}}
+@media (max-width:700px) and (min-width:0px){
+ .the_food_man ,.the_food_man img  {
+width: 80%;
+ }
+}
+@media (max-width: 700px) and (min-width:0px)
+{.top,.bottom{
+    width: 95%;
+}
+}
+@media (max-width:700px) and (min-width:0px)
+{
+    .top div,.bottom div{
+    width: 80%;
+}}
+@media (max-width:700px) and (min-width:0px)
+{
+    .top div,.bottom div{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+}
+@media (max-width: 700px) and (min-width:0px){
+    .center{
+    width: 80%;
+}
+}
+@media (max-width: 700px) and (min-width:0px){
+    .links{
+width: 90%;
+margin-left: 20%;
+margin-right: 2px;
+}
+}
+@media (max-width: 700px) and (min-width:0px){
+    .container{
+    width: 90%;
+}}
+@media (max-width: 700px) and (min-width:0px){
+    .container .card{
+    width: 90%;
+}
+}
+@media (max-width: 700px) and (min-width:0px){
+    .container .card1{
+    width: 90%;
+}
+}
+@media (max-width: 700px) and (min-width:0px){
+    .container .card2{
+    width: 90%;
+}
+}
+@media screen and (max-height: 450px) {
+    .left a {font-size: 20px}
+    .left .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+}
+@media(max-width:1000px) and (min-width:700px){
+    .top .q{
+        float:right;
+        width: 45%;
+        margin-top:13.5% ;
+        margin-right: 10%;
+    }
+}
+@media(max-width:1000px) and (min-width:700px){
+    .top .w{
+        float: left;
+         width: 45%;
+    }
+   
+}
+@media (max-width:1000px) and (min-width:700px) {
+    .top div,.bottom div{
+        width: 45%;
+       
+    }
+}
+@media (max-width:1000px) and (min-width:700px) {
+    .the_food_man{
+        width: 80%;
+       
+    }
+}
+@media (max-width:1000px) and (min-width:700px) {
+    .the_food_man img{
+        width: 80%;
+        margin-left: 25%;
+       
+    }
+}
+@media (max-width: 1000px) and (min-width:700px){
+    .container{
+    width: 90%;
+}}
+@media (max-width: 1000px) and (min-width:700px){
+    .container .card{
+    width: 90%;
+    margin-left: 30px;
+}
+}
+@media (max-width: 1000px) and (min-width:700px){
+    .container .card1{
+    width: 70%;
+}
+
+}
+@media (max-width: 1000px) and (min-width:700px){
+    .container .card2{
+    width: 90%;
+}
+}

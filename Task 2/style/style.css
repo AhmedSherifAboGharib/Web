@@ -1,0 +1,314 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    height: 10%;
+    
+} 
+nav{
+    background-color: #888888;
+} 
+nav{
+    
+    width: 100%;
+     background-color: #fff;
+    padding-bottom: 90px;
+    padding-top: 20px;
+}
+.nav{
+    margin-left: 75px;
+    margin-right: 75px;
+
+    
+}
+nav .nav div{
+  
+   color: black;
+   width: 33%;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    
+}
+.left{
+    float: left;
+    margin-top: 12px;
+    background-color: #fff;
+    
+}
+#a{
+    font-size: x-large;
+}
+/* The Overlay (background)*/
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 1); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 25%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; /* Display block instead of inline */
+   align-items: center;
+   text-align: center;
+    transition: 0.3s; /* Transition effects on hover (color) */
+margin-left: 10%; 
+}
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay-content a:hover, .overlay-content a:focus {
+    background-color: lightgray;
+  }
+  .overlay #a{
+    width: 30%;
+  }
+  .overlay #a:hover{
+    background-color: lightgray;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    font-size: 60px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+  
+.center{
+    float: left;
+    text-align: center;
+    font-weight: 10;
+    font-size: medium;
+    line-height: 0.5em;
+    margin-top: 10px;
+}
+.right{
+    float:right;
+    text-align: right;
+    margin-bottom: 20px;
+    
+}
+.clear{
+    clear: both;
+}
+.top{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+}
+.top div{
+    width: 24%;
+    float: left;
+    margin-top: 10%;
+}
+.top div img{
+    width: 94%;
+}
+.top div h2{
+    text-align: center;
+}
+.top div p{
+    text-align: center;
+}
+.bottom{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:  15px; 
+}
+.bottom div{
+    width: 24%;
+    float: left;
+}
+.bottom div img{
+    width: 94%;
+}
+.bottom div h2{
+    text-align: center;
+}
+.bottom div p{
+    text-align: center;
+}
+.links{
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 42%;
+    margin-right: 49%;
+}
+.links a{
+    padding-left: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 0 12px 0 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    padding: 8px 14px;
+    margin-right: 2px;
+    background-color: white;
+    color: black;
+
+}
+.links a:hover{
+    background-color: black;
+    color: white;
+}
+#new_color{
+    background-color: black;
+    color: white;
+}
+#new_color:hover{
+    background-color: gray;
+}
+.the_food_man{
+width: 100%;
+}
+.the_food_man h2{
+    text-align: center;
+}
+.the_food_man img{
+    margin-left: 20%;
+}
+.center1{
+    width: 80%;
+    margin-left: 10%;
+}
+.myfood{
+    text-align: center;
+}
+.container{
+    width: 100%;
+
+}
+.container .card{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    margin-top: 30px;
+    border: 10px solid white
+}
+
+.container .card1{
+    width: 30%;
+    float: left;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 15px;
+   height: 40%;
+}
+.card1 img{
+    width: 14%;
+    float: left;
+    margin:7px;
+    margin-top: 12px;
+}
+ .card1.popular-post{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+}
+.p1{
+    margin-left: 20px;
+}
+.card1 .popular-post h2{
+    padding: 20px;
+}
+.popular-posts{
+    padding: 16px;
+}
+.container .card2{
+    width: 30%;
+    float: left;
+}
+.card1 div{
+    float: left;
+}
+.card1 .posts:hover {
+background-color: lightgray;
+}
+.container.card2{
+    width: 30%;
+    float:left;
+    background-color: #fff;
+    margin: 10px;
+    margin-top: 5px;
+}
+.card2{
+    margin-top: 22px;
+}
+.card2 img{
+    width: 14%;
+}
+.card2 .popular-post{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+}
+.card2 .popular-post h2{
+    padding: 20px;
+}
+.popular-posts{
+    padding: 16px;
+}
+.p p{
+   padding-left: 4px;
+   padding-right: 4px;
+    float: left;
+    color: rgb(0, 0, 0);
+    border: #888888 1px solid;
+    background-color: gray;
+    margin: 5px;
+    text-align: center;
+    font-size: small;
+}
+.p a{
+    clear: both;
+}
+.p p span{
+    background-color: black;
+   
+}
+.p .black{
+    background-color: black;
+    color: whitesmoke;
+}
+#c{
+    font-size: x-large;
+}
+#c:hover{
+    color: black;
+    background-color: #fff;
+}
